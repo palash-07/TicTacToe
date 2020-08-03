@@ -8,7 +8,7 @@ public class Main {
         int cnt = 0;
         while (true){
             if (cnt%2 == 0) {
-                Syst0em.out.println(game.print());
+                System.out.println(game.print());
                 System.out.print("Enter the coordinates : ");
                 int row = sc.nextInt(); int col = sc.nextInt();
                 boolean t = game.fill(row,col,player);
